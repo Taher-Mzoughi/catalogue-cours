@@ -1,0 +1,25 @@
+.liste-cours {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.carte-cours {
+  padding: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.carte-cours h2 {
+  margin-top: 0;
+  color: #1d4ed8;
+  font-size: 20px;
+}
+
+.carte-cours p {
+  margin: 8px 0;
+}
